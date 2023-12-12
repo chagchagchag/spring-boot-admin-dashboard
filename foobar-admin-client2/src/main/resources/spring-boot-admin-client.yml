@@ -11,7 +11,7 @@ spring:
         instance:
           name: foobar-client-2-8082
           # 현재 admin-client 자기 자신의 주소
-          service-url: http://localhost:8081
+          service-url: http://localhost:8082
 #          health-url: http://localhost:8081/actuator/health
 #          management-url: http://localhost:8081/actuator
           metadata:
