@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: admin-client
+  config:
+    import:
+      - classpath:spring-boot-admin-client.yml
+      - classpath:actuator.yml
+logging:
+  level:
+    root: debug
